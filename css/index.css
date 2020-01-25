@@ -1,0 +1,66 @@
+html, body{
+  width:100%;
+  height: 100%;
+  background-color: #1C2033;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-font{
+  font-family: 'Yatra One', cursive;
+}
+.navbar-brand{
+  align-items: center;
+  font-size: 2.5rem;
+}
+#brand-img{
+  float: left;
+  width: 60px;
+  border-radius: 4px;
+  background-color: #ffffff !important;
+  display: block;
+}
+#login-img{
+  float: left;
+  width: 40px;
+  border-radius: 3px;
+  background-color: #ffffff !important;
+  display: block;
+}
+.brand-text{
+  padding-left: 10px;
+  float:left;
+  text-align: center;
+  color:#fff;
+}
+.nav-link{
+  align-items: center;
+}
+.nav-item{
+  font-size: 2rem;
+  color:#fff;
+}
+#copyright{
+  font-size: 1rem;
+  text-align: center;
+  color:#fff;
+}
+#Login{
+  margin: 0;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+}
+#login_menu{
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  margin: 0;
+}
+.dropdown-item{
+  text-align: left;
+  padding-left: 1em;
+}
+.dropdown-menu{
+  min-width: 0;
+}

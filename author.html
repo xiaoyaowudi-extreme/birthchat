@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<link rel='stylesheet' href='https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css'>
+<script src='https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js'></script>
+<script src='https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.js'></script>
+<link href='https://fonts.googleapis.com/css?family=Yatra+One&display=swap' rel='stylesheet'>
+<link rel='stylesheet' href='/css/index.css'>
+<link rel='stylesheet' href='/css/author.css'>
+<script src='/scripts/index.js'></script>
+<head>
+  <meta charset='utf-8'>
+  <title>Birthchat</title>
+  <link rel='icon' type='image/x-ico' href='/images/icon.ico'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+</head>
+<body>
+  <nav class='navbar navbar-default navbar-expand-lg fixed-top navbar-collapse bg-dark navbar-dark'>
+    <a class='navbar-brand' href='/'>
+      <img id='brand-img' src='/images/720x720.png'>
+      <div class='brand-text new-font'>Birthchat</div>
+    </a>
+    <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#collapsibleNavbar'>
+      <span class='navbar-toggler-icon'></span>
+    </button>
+    <div class='navbar-collapse collapse' id='collapsibleNavbar'>
+      <ul class='navbar-nav mr-auto'>
+        <li class='nav-item'>
+          <a class='nav-link new-font' href='#' scroll='true'>
+            People
+          </a>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link new-font' href='/music/' scroll='true'>
+            Music
+          </a>
+        </li>
+        <li class='nav-item dropdown'>
+          <a class='nav-link new-font dropdown-toggle' href='#' id='navbardrop' data-toggle='dropdown' scroll='false'>About</a>
+          <div class='dropdown-menu'>
+            <a class='dropdown-item new-font' href='https://github.com/xiaoyaowudi-extreme/birthchat' scroll='true'>
+              This Website
+            </a>
+            <a class='dropdown-item new-font' href='#' scroll='true'>
+              Author
+            </a>
+          </div>
+        </li>
+      </ul>
+      <ul class='navbar-nav ml-auto'>
+        <li class='nav-item dropdown'>
+          <a class='nav-link dropdown-toggle' href='#' id='navbardrop' data-toggle='dropdown'><img id='login-img' src='/images/nobody.png'></a>
+          <div class='dropdown-menu' id = 'login_menu'>
+            <a class='dropdown-item new-font' href='#' id='Login'>Login</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <img id="author_image" src="/images/author.jpeg">
+  <footer class='fixed-bottom bg-dark'>
+    <div class='container-fluid new-font' id='copyright'><p>Copyright© Birthchat<br/>2019&nbsp -&nbsp 2020</p></div>
+  </footer>
+</body>
+</html>
